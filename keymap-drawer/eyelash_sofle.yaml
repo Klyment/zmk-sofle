@@ -7,7 +7,7 @@ layers:
   - '3'
   - '4'
   - F5
-  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-up-bold$$
   - '6'
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
@@ -20,7 +20,7 @@ layers:
   - E
   - R
   - T
-  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-down-bold$$
   - Y
   - U
   - I
@@ -33,7 +33,7 @@ layers:
   - D
   - F
   - G
-  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-left-bold$$
   - H
   - J
   - K
@@ -46,7 +46,7 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
+  - $$mdi:arrow-right-bold$$
   - N
   - M
   - {t: ',', s: <}
@@ -59,7 +59,7 @@ layers:
   - $$mdi:keyboard-space$$
   - $$mdi:apple-keyboard-shift$$
   - layer2
-  - $$mdi:mouse-left-click-outline$$
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   - layer1
   - $$mdi:keyboard-space$$
   - {t: '''', s: '"'}
@@ -72,7 +72,7 @@ layers:
   - F3
   - F4
   - F5
-  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - {t: '=', s: +}
   - {t: /, s: '?'}
   - '*'
@@ -85,7 +85,7 @@ layers:
   - F8
   - F9
   - F10
-  - $$mdi:arrow-down-bold$$
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - KP 7
   - KP 8
   - KP 9
@@ -98,7 +98,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - F11
   - F12
-  - $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:menu-left$$', s: '$$mdi:mouse$$'}
   - KP 4
   - KP 5
   - KP 6
@@ -111,7 +111,7 @@ layers:
   - RGB EFF
   - RGB EFR
   - RGB SPI
-  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:menu-right$$', s: '$$mdi:mouse$$'}
   - KP 1
   - KP 2
   - KP 3
@@ -122,9 +122,9 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - CALC
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:mouse-right-click-outline$$
   - layer3
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - $$mdi:mouse-left-click-outline$$
   - {type: held}
   - KP 0
   - {t: '$$mdi:transfer$$', type: trans}
