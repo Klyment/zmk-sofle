@@ -129,7 +129,7 @@ layers:
   - KP 0
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - KP NUMLOCK
   BT&FN:
   - '~'
   - {h: '1', s: '$$mdi:bluetooth-connect$$'}
